@@ -1,4 +1,9 @@
 == README
+live streaming reviews. when checking daily reviews you can see pics from other people after requesting.
+this app is social network to view live pics and videos of venues. each person that check in to venue has pics that could be shared with request of another user. owner of company could only post pics and videos of venue. 
+Each user has his own page of each venue and location
+user profile page will have tagline of location history with pics association with the venue page
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
