@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :reviews
+  resources :pins
   devise_for :users
   resources :restaurants
   get 'pages/about'
