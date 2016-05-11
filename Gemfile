@@ -33,6 +33,10 @@ gem "mini_magick"
 
 gem 'devise'
 
+gem 'paperclip'
+
+gem 'masonry-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

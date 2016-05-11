@@ -5,9 +5,9 @@ Restaurant:<br/>
 
 <p>
 User Image:<br/>  
-<%- if @restaurant.user_image_url %>  
-<%= image_tag(@restaurant.user_image_url) %>
-<%- end %>
+<% @restaurant.daily_image_urls.each do |url| %>
+  <%= image_tag(url) %>
+<% end %>
 </p>
 
 <p>
