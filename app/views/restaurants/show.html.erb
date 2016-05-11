@@ -1,4 +1,14 @@
+<p>
+Restaurant:<br/>
 <%= image_tag @restaurant.image_url %>
+</p>
+
+<p>
+User Image:<br/>  
+<%- if @restaurant.user_image_url %>  
+<%= image_tag(@restaurant.user_image_url) %>
+<%- end %>
+</p>
 
 <p>
   <strong>Name:</strong>
@@ -20,5 +30,7 @@
   <%= @restaurant.website %>
 </p>
 
+<%= link_to 'Add Review', new_restaurant_review_path(@restaurant), class: "btn btn-link" %> |
+<%= link_to 'Add Image', new_restaurant_image_path(@restaurant), class: "btn btn-link" %> |
 <%= link_to 'Edit', edit_restaurant_path(@restaurant), class: "btn btn-link" %> |
 <%= link_to 'Back', restaurants_path, class: "btn btn-link" %>

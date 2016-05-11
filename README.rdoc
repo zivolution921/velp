@@ -1,5 +1,5 @@
 == README
-Sharing moments with friends at each #Venue, and building portfolio for videos by sharing people moments @ venues.
+Sharing moments with friends at each #Venue, and building portfolio for venues by sharing people moments @ venues.
 live streaming reviews. when checking daily reviews you can see pics from other people after requesting.
 this app is social network to view live pics and videos of venues. each person that check in to venue has pics that could be shared with request of another user. owner of company could only post pics and videos of venue. 
 Each user has his own page of each venue and location
